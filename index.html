@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Food and Groceries.Discover the best restaurants.Swiggy it!</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="min-h-screen ">  
+        <div class="bg-orange-600">
+        
+            <nav class="px-30 py-15 flex justify-between">
+                <a class="text-white text-3xl font-bold " href="">Swiggy</a>
+                <div>
+                    <a class="px-5 text-white font-bold hidden lg:inline-block text-lg" href="">Swiggy Corporate</a>
+                    <a class="text-white px-5 font-bold text-lg hidden lg:inline-block" href="">Partner with us</a>
+                    <a class="text-white  font-bold border text-lg px-6 py-4 rounded-md hidden lg:inline-block "  href="">Get the App<span class="w-20 h-10"> &uarr;</span> </a>
+                    <a class="text-white md:mx-8 bg-black md:px-12 md:py-4 md:text-lg  rounded-md font-bold" href="">Sign in</a>
+                </div>
+            </nav>
+            <h1 class="text-white text-center  mt-10 md:text-5xl text-xl font-bold leading-15">Order food & groceries.Discover<br>best restaurants. Swiggy it!</h1>
+            <div style="margin-top: 30px;; display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+               <div style="display: flex; align-items: center;  position: relative;width: 350px;  background-color: white; height: 50px;  " class="rounded-md">
+                <i class="fa-solid fa-location-dot text-orange-600 text-md px-2 py-10  " style="position: absolute;
+                 pointer-events: none; font-size: 30px;   "></i> 
+                <label class="" for="username" >
+                <input type="text" id="username" placeholder="Enter your delivery location" class="font-bold" style="width: 250px; margin-left: 50px; border: none;   ">
+                
+                    
+                
+                     <i class="fa-solid fa-v ml-5 px-2  " style="position: absolute; pointer-events: none; color: grey; font-size: 15px;  margin-top: 5px;  "></i> 
+                </label>
+               </div>
+               
+               <div style="display: flex; align-items: center;  position: relative;width: 450px;  background-color: white; height: 50px; " class="rounded-md">
+                
+                <label class="" for="username" >
+                <input type="text" id="username" placeholder="Search for restaurant,item or more" class="font-bold " style="width: 350px; margin-left: 20px; border: none;" >
+                <i class="fa-solid fa-magnifying-glass " style="color: grey; margin-left: 30px;"></i>     
+                </label>
+               </div>
+                
+            </div>
+ <!-- grid -->
+  <div class="md:grid grid-cols-3  md:mx-50 mx-10 gap-10  pb-20 gap-y-6"  >
+    <div class="bg-white rounded-md  px-5 mt-20  ">
+       <h1 class="md:text-3xl font-bold text-gray-700 py-3">FOOD DELIVERY</h1> 
+       <h3 class="md:text-lg text-gray-500 font-semibold">FROM RESTAURANTS</h3>
+       <p class="md:text-bold text-orange-600 rounded-full px-1 py-1 mt-5 " style="background-color: rgb(248, 221, 230); width: 130px;">UPTO 60% OFF</p>
+       <div class="flex items-center justify-center  gap-15">
+        <div class="flex mt-15 ml-5 ">
+        <div class="arrright move ">
+            <div class="arrow"></div>
+        </div>
+        </div>
+        <!-- <p class="md:text-5xl font-bold text-white border content-center rounded-full bg-orange-600 px-1 pb-2 md:ml-7   mt-15  ">&rarr;</p> -->
+        <img class="md:w-40 md:h-40 w-20 h-20 " src="./images/bowl3.png" alt="">
+       </div>
+    </div>
+    <div class="bg-white rounded-md px-5 mt-20 ">
+        <h1 class="md:text-3xl font-bold py-3  text-gray-700 " >INSTAMART</h1> 
+       <h3 class="md:text-lg text-gray-500 font-semibold" >INSTANT GROCERY</h3>
+       <p class="text-bold text-orange-600 rounded-full px-1 py-1 mt-5 " style="background-color: rgb(248, 221, 230); width: 130px;">UPTO 60% OFF</p>
+       <div class="flex items-center justify-center  gap-15 position-relative">
+        <div class="flex mt-15 ml-5 ">
+        <div class="arrright move ">
+            <div class="arrow"></div>
+        </div>
+        </div>
+        <!-- <p class="md:text-5xl font-bold text-white border rounded-full bg-orange-600 content-center px-1 pb-2 md:ml-7  mt-15  ">&rarr;</p> -->
+        <img class="md:w-50 md:h-40 w-20 h-20" src="./images/basket.png" alt="">
+       </div>
+    </div>
+    <div class="bg-white rounded-md px-5 mt-20 ">
+        <h1 class="md:text-3xl py-3 text-gray-700 font-bold ">DINEOUT</h1> 
+       <h3 class="md:text-lg text-gray-500 font-semibold">EAT OUT AND SAVE MORE</h3>
+       <p class="text-bold text-orange-600 rounded-full px-1 py-1 mt-5 " style="background-color: rgb(248, 221, 230); width: 130px;">UPTO 50% OFF</p>
+       <div class="flex items-center justify-center  gap-15">
+        <div class="flex mt-15 ml-5 ">
+        <div class="arrright move ">
+            <div class="arrow"></div>
+        </div>
+        </div>
+        <!-- <p class="md:text-5xl font-bold text-white border rounded-full bg-orange-600 px-1 pb-2 md:ml-10  mt-15 content-center  ">&rarr;</p> -->
+        <img class="md:w-45 md:h-40 w-20 h-20" src="./images/plate.png" alt="">
+       </div>
+    </div>
+    <div class="w-235 h-3 bg-white mt-2 ">
+
+    </div>
+
+  </div>
+  
+  <!-- <img style="margin-top: -900px; position: relative" id="image1" class="hidden lg:block" src="./images/first.png" alt="">
+  <img style="margin-left: auto; margin-top: -450px; position: relative; " class="hidden lg:block" src="./images/second.png" alt=""> -->
+  </div>
+  <div style="margin-top: -830px;">
+  <img style=" position: relative" id="image1" class="hidden lg:block" src="./images/first.png" alt="">
+  <img style="margin-left: auto; margin-top: -450px; position: relative; " class="hidden lg:block" src="./images/second.png" alt="">
+  </div>
+  <div class="md:mt-100 mt-250 position-relative">
+    <h3 class="text-2xl font-bold px-35">Order our best food options</h3>
+
+    <!-- slider -->
+     <div class="slider">
+
+  <!-- Radio buttons -->
+  <input type="radio" name="slide" id="s1" class="in" checked>
+  <input type="radio" name="slide" class="in" id="s2">
+ 
+
+  <!-- Slides -->
+  <div class="slides ">
+    <div class="slide px-35">
+      <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/dosa1.png" alt="dosa">
+            <p class="text-center">Dosa</p>
+        </div>
+      <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/idli.png" alt="idli">
+            <p class="text-center">Idli</p>
+        </div>
+      <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/vada.png" alt="vada">
+            <p class="text-center">Vada</p>
+        </div>
+      <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/biryani.png" alt="biryani">
+            <p class="text-center">Biryani</p>
+        </div>
+      <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/poori.png" alt="poori">
+            <p class="text-center">Poori</p>
+        </div>
+      <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/samosa.png" alt="samosa">
+            <p class="text-center">Samosa</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/parotta.png" alt="parotta">
+            <p class="text-center">Parotta</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/pizza.png" alt="pizza">
+            <p class="text-center">Pizza</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/momos.png" alt="momos">
+            <p class="text-center">Momo</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/omlette.png" alt="omlette">
+            <p class="text-center">Omelette</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/puttu.png" alt="puttu">
+            <p class="text-center">Puttu</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/burger.png" alt="buger">
+            <p class="text-center">Burger</p>
+        </div>
+    </div>
+
+    <div class="slide px-35">
+       <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/appam.png" alt="appam">
+            <p class="text-center">Appam</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/coffee.png" alt="coffee">
+            <p class="text-center">Coffee</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/pasta.png" alt="pasta">
+            <p class="text-center">Pasta</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/parata.png" alt="paratha">
+            <p class="text-center">Paratha</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/shawarma.png" alt="shawarma">
+            <p class="text-center">Shawarma</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/idiyappam.png" alt="idiyappam">
+            <p class="text-center">Idiyappam</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/cake.png" alt="cake">
+            <p class="text-center">Cake</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/pulao.png" alt="pulav">
+            <p class="text-center">Pulao</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/juice.png" alt="juice">
+            <p class="text-center">Juice</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/salad.png" alt="salad">
+            <p class="text-center">Salad</p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/icecream.png" alt="icecream">
+            <p class="text-center">Icecream</p>
+        </div>
+<div class="items-center justify-center">
+            <img class="h-40 w-40 rounded-full " src="./images/chattichor.png" alt="chattichor">
+            <p class="text-center">Chattichor</p>
+        </div>
+</div>
+</div>
+      <div class="arrows">
+        
+    <label  for="s1">&larr;</label>
+    <label for="s2">&rarr;</label>
+  </div>
+
+</div>
+   
+    
+        <h3 class="mt-30 text-2xl font-bold px-35">Shop groceries on Instamart</h3>
+        
+ <div class="slider">
+    <!-- Radio buttons -->
+  <input type="radio" name="slide" id="s3" class="in" checked>
+  <input type="radio" name="slide" class="in" id="s4">
+<div class="slides " >
+    <div class="slide1 px-40 gap-10  ">
+        <div class="items-center justify-center  ">
+            <img class="w-40 h-50 rounded-lg " style="background: rgb(226, 226, 226);" src="./images/vegetables.png" alt="vegetables">
+            <p class="text-center font-bold text-xl text-gray-700" >Fresh<br> Vegetables</p>
+        </div>
+        <div class="items-center justify-center ">
+            <img class="h-50 w-40 rounded-lg " style="background: rgb(226, 226, 226);" src="./images/fruits.png" alt="fruits">
+            <p class="text-center font-bold text-xl text-gray-700">Fresh<br> Fruits</p>
+        </div>
+         <div class="items-center justify-center ">
+            <img class="h-50 w-40 rounded-lg " style="background: rgb(226, 226, 226);" src="./images/diary.png" alt="diary">
+            <p class="text-center font-bold text-xl text-gray-700">Diary,Bread<br>and Eggs </p>
+        </div>
+        <div class="items-center justify-center">
+            <img class="h-50 w-40 rounded-lg " style="background: rgb(226, 226, 226);" src="./images/oil.png" alt="oils">
+            <p class="text-center font-bold text-xl text-gray-700">Oils and<br>Ghee </p>
+        </div>
+          <div class="items-center justify-center">
+            <img class="h-50 w-40 rounded-md " style="background: rgb(226, 226, 226);" src="./images/rice.png" alt="oils">
+            <p class="text-center font-bold text-xl text-gray-700">Rice,Atta<br>and Dal </p>
+        </div>
+        </div>
+        <div class="slides  " >
+          <div class="slide1 px-40 gap-10">
+          <div class="items-center justify-center  ">
+            <img class="w-40 h-50 rounded-lg " style="background: rgb(226, 226, 226);" src="./images/biscuit.png" alt="biscuits and cakes">
+            <p class="text-center font-bold text-xl text-gray-700" >Biscuits<br> and Cakes</p>
+        </div>
+        <div class="items-center justify-center ">
+            <img class="h-50 w-40 rounded-lg " style="background: rgb(226, 226, 226);" src="./images/masala.png" alt="masalas and dry fruits">
+            <p class="text-center font-bold text-xl text-gray-700">Masalas and<br>Dry Fruits</p>
+        </div>
+         <div class="items-center justify-center ">
+            <img class="h-50 w-40 rounded-lg " style="background: rgb(226, 226, 226);" src="./images/cold.png" alt="cold drinks and juices">
+            <p class="text-center font-bold text-xl text-gray-700">Cold drinks<br>and Juices </p>
+        </div>
+        <div class="items-center justify-center ">
+            <img class="h-50 w-40 rounded-lg " style="background: rgb(226, 226, 226);" src="./images/cereals.png" alt="cereals">
+            <p class="text-center font-bold text-xl text-gray-700">Cereals and<br>Breakfast  </p>
+        </div>
+        <div class="items-center justify-center ">
+            <img class="h-50 w-40 rounded-lg " style="background: rgb(226, 226, 226);" src="./images/meat.png" alt="meat">
+            <p class="text-center font-bold text-xl text-gray-700">Meat and<br>Seafood </p>
+        </div>
+          </div>  
+        </div>
+
+        </div>
+         <div class="arrows">
+        
+    <label for="s3">&larr;</label>
+    <label for="s4">&rarr;</label>
+  </div>
+ </div>
+            <h3 class="mt-30 text-2xl font-bold px-35">Discover best restaurants on Dineout</h3>
+            <div class="slider1">
+    <!-- Radio buttons -->
+  <input type="radio" name="slide" id="s5" class="in" checked>
+  <input type="radio" name="slide" class="in" id="s6">
+
+<div class="slides1 " >
+    <div class="slide2 px-35 gap-10  ">
+        <div class="border-white rounded-md shadow w-80 mt-10">
+    <a href=""><img class="w-80 h-50" src="https://im.whatshot.in/img/2020/May/starbucks-915-6m196-cropped-1590669407.jpg?wm=1&w=1200&h=630&cc=1" alt=""></a>
+    <div class="flex position-relative justify-between px-1" style="margin-top: -50px;">
+        <h5 class="text-xl text-white font-bold">Starbucks Coffee</h5>
+        <p class=" text-white text-xl font-bold "><i class="fa-solid fa-star text-emerald-600  "></i>4.2</p>
+    </div>
+    <p class="text-gray-500  font-medium mt-2">Coffee house <i class="fa-solid fa-circle  text-gray-500 mt-10 " style="font-size: 7px;"></i> Bevereges <span class="ml-5">&#8377 900 for two</span></p>
+    <p class="text-gray-500 mt-2 font-medium">Ernakulam,Kochi <span class="ml-30">14.6km</span></p> 
+    <div class="mt-5">
+        <p class="bg-emerald-600 px-2 py-3 rounded-md w-80 text-white font-medium">Flat 10% off on walk-in <span class="ml-10">+1 more</span></p>
+        <div class="mt-5">
+            <p class="bg-emerald-200 w-80 rounded-md px-2 py-3 text-emerald-600 font-medium">Upto 10% with bank offers</p>
+        </div>
+    </div>
+    </div>
+        <div class="border-white rounded-md shadow w-80 mt-10">
+   <a href=""><img class="w-80 h-50" src="https://furnitureroots.com/wp-content/uploads/2021/07/Small-Restaurant-Designs.jpg" alt=""></a> 
+    <div class="flex position-relative justify-between px-1" style="margin-top: -50px;">
+        <h5 class="text-xl text-white font-bold">Jugos Cafe</h5>
+        <p class=" text-white text-xl font-bold "><i class="fa-solid fa-star text-emerald-600  "></i>4.4</p>
+    </div>
+    <p class="text-gray-500  font-medium mt-2">Italian <i class="fa-solid fa-circle  text-gray-500 mt-10" style="font-size: 7px;"></i> Fast food <span class="ml-20">&#8377 500 for two</span></p>
+    <p class="text-gray-500 mt-2 font-medium">Thoppumpady,Kochi <span class="ml-30">1.2km</span></p> 
+    
+    <div class="mt-5">
+        <a class="w-40 bg-gray-200 rounded-md px-2 py-1 text-gray-500 font-medium  " href="">Table Booking</a>
+    </div>
+    <div class="mt-5">
+
+        <p class="bg-emerald-600 px-2 py-3 rounded-md w-80 text-white font-medium">Flat 10% off on walk-in <span class="ml-10">+1 more</span></p>
+        <div class="mt-5">
+            <p class="bg-emerald-200 w-80 rounded-md px-2 py-3 text-emerald-600 font-medium">Upto 10% with bank offers</p>
+        </div>
+    </div>
+    </div>
+         <div class="border-white rounded-md shadow w-80 mt-10">
+    <a href=""><img class="w-80 h-50" src="https://mindfuldesignconsulting.com/wp-content/uploads/2022/11/Modern-Interior-Design-for-Shawarma-Store.jpg" alt="Mr Shawarma">
+    <div class="flex position-relative justify-between px-1" style="margin-top: -50px;">
+        
+        <h5 class="text-xl text-white font-bold">Mr Shawarma</h5>
+        <p class=" text-white text-xl font-bold "><i class="fa-solid fa-star text-emerald-600  "></i>3.7</p>
+    </div>
+    <p class="text-gray-500  font-medium mt-2">Arabian <i class="fa-solid fa-circle  text-gray-500 mt-10" style="font-size: 7px;"></i> Fast Food <span class="ml-18">&#8377 400 for two</span></p>
+    <p class="text-gray-500 mt-2 font-medium">Chullickal,Kochi <span class="ml-35">2.6km</span></p> 
+    <div class="mt-5">
+        <p class="bg-emerald-600 px-2 py-3 rounded-md w-80 text-white font-medium">Flat 10% off on walk-in <span class="ml-10">+1 more</span></p>
+        <div class="mt-5">
+            <p class="bg-emerald-200 w-80 rounded-md px-2 py-3 text-emerald-600 font-medium">Upto 10% with bank offers</p>
+        </div>
+    </div>
+    </div>
+
+<!-- t -->
+ 
+        <div class="border-white rounded-md shadow w-80 mt-10">
+    <a href=""><img class="w-80 h-50" src="https://img.restaurantguru.com/c1fa-Restaurant-Arabic-Khana-interior.jpg" alt=""></a>
+    <div class="flex position-relative justify-between px-1" style="margin-top: -50px;">
+        <h5 class="text-xl text-white font-bold">Arabic Khana</h5>
+        <p class=" text-white text-xl font-bold "><i class="fa-solid fa-star text-emerald-600  "></i>3.9</p>
+    </div>
+    <p class="text-gray-500  font-medium mt-2">South Indian  <i class="fa-solid fa-circle  text-gray-500 mt-10" style="font-size: 7px;"></i> Arabian <span class="ml-5">&#8377 800 for two</span></p>
+    <p class="text-gray-500 mt-2 font-medium">Fort Kochi,Kochi <span class="ml-30">1.6km</span></p> 
+    <div class="mt-5">
+        <p class="bg-emerald-600 px-2 py-3 rounded-md w-80 text-white font-medium">Flat 10% off on walk-in <span class="ml-10">+1 more</span></p>
+        <div class="mt-5">
+            <p class="bg-emerald-200 w-80 rounded-md px-2 py-3 text-emerald-600 font-medium">Upto 10% with bank offers</p>
+        </div>
+    </div>
+    </div>
+     <div class="border-white rounded-md shadow w-80 mt-10">
+   <a href=""><img class="w-80 h-50" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/18/19/10/kochi-kitchen.jpg?w=1200&h=800&s=1" alt=""></a> 
+    <div class="flex position-relative justify-between px-1" style="margin-top: -50px;">
+        <h5 class="text-xl text-white font-bold">Suncoast Restaurant</h5>
+        <p class=" text-white text-xl font-bold "><i class="fa-solid fa-star text-emerald-600  "></i>4.2</p>
+    </div>
+    <p class="text-gray-500  font-medium mt-2">South Indian <i class="fa-solid fa-circle  text-gray-500 mt-10" style="font-size: 7px;"></i> Chinese <span class="ml-10">&#8377 800 for two</span></p>
+    <p class="text-gray-500 mt-2 font-medium">Thevara,Kochi <span class="ml-30">4.3km</span></p> 
+    
+    <div class="mt-5">
+        <a class="w-40 bg-gray-200 rounded-md px-2 py-1 text-gray-500 font-medium  " href="">Table Booking</a>
+    </div>
+    <div class="mt-5">
+
+        <p class="bg-emerald-600 px-2 py-3 rounded-md w-80 text-white font-medium">Flat 10% off on walk-in <span class="ml-10">+1 more</span></p>
+        <div class="mt-5">
+            <p class="bg-emerald-200 w-80 rounded-md px-2 py-3 text-emerald-600 font-medium">Upto 10% with bank offers</p>
+        </div>
+    </div>
+    </div>
+     <div class="border-white rounded-md shadow w-80 mt-10">
+   <a href=""><img class="w-80 h-50" src="https://tse1.mm.bing.net/th/id/OIP.oeE8BtKwrFwUDtk5ZXMHlAHaEU?pid=Api&P=0&h=180" alt=""></a> 
+    <div class="flex position-relative justify-between px-1" style="margin-top: -50px;">
+        <h5 class="text-xl text-white font-bold">The Eatery</h5>
+        <p class=" text-white text-xl font-bold "><i class="fa-solid fa-star text-emerald-600  "></i>4.4</p>
+    </div>
+    <p class="text-gray-500  font-medium mt-2">North Indian <i class="fa-solid fa-circle  text-gray-500 mt-10" style="font-size: 7px;"></i> Asian <span class="ml-10">&#8377 2000 for two</span></p>
+    <p class="text-gray-500 mt-2 font-medium">Sheraton Infopark,Kochi <span class="ml-20">18.2km</span></p> 
+    
+    <div class="mt-5">
+        <a class="w-40 bg-gray-200 rounded-md px-2 py-1 text-gray-500 font-medium  " href="">Table Booking</a>
+    </div>
+    <div class="mt-5">
+
+        <p class="bg-emerald-600 px-2 py-3 rounded-md w-80 text-white font-medium">Flat 10% off on walk-in <span class="ml-10">+1 more</span></p>
+        <div class="mt-5">
+            <p class="bg-emerald-200 w-80 rounded-md px-2 py-3 text-emerald-600 font-medium">Upto 10% with bank offers</p>
+        </div>
+    </div>
+    </div>
+        </div>
+        </div>
+<div class="arrows">
+        
+    <label for="s5">&larr;</label>
+    <label for="s6">&rarr;</label>
+  </div>
+ </div>
+<!-- t -->
+  <img class="mt-20 inset-x-0" src="./images/swiggy1.png" alt="">
+<h3 class="mt-20 px-50 text-2xl font-bold">Cities with food delivery</h3>
+  <div class="flex items-center  px-48 mt-5 gap-2  " style="flex-wrap: wrap;">
+     
+    <div class="border border-gray-300 px-8 py-6 rounded-md  md:w-55 md:h-25 w-70">
+      <a  href=""><p class=" font-medium text-center text-gray-800">Order food online in Bangalore </p></a>  
+    </div>
+    <div class="border border-gray-300 px-8 py-6 rounded-md md:w-55 md:h-25 w-70">
+       <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Delhi </p></a>  
+    </div>
+    <div class="border border-gray-300 px-8 py-6 rounded-md md:w-55 md:h-25 w-70">
+       <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Gurgaon</p></a> 
+    </div>
+    <div class="border border-gray-300 px-8 py-6 rounded-md md:w-55 md:h-25 w-70">
+       <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Pune</p></a> 
+    </div>
+    </div>
+    <!-- layer 2 -->
+     <div class="flex items-center  px-50 mt-5 gap-2  " style="flex-wrap: wrap;">
+
+    <div class="border border-gray-300 px-8 py-6 md:w-55 md:h-25 w-70 rounded-md">
+      <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Kolkata</p></a>  
+    </div>
+    <div class="border border-gray-300 px-8 py-6 md:w-55 md:h-25 w-70 rounded-md">
+       <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Chennai</p></a> 
+    </div>
+    <div class="border border-gray-300 px-8 py-6 md:w-55 md:h-25 w-70 rounded-md">
+      <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Mumbai</p></a>  
+    </div>
+    <div class="border border-gray-300 px-8 py-6 md:w-55 md:h-25 w-70 rounded-md">
+      <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Ahmedabad </p></a>  
+    </div>
+    </div>
+    <!-- layer3 -->
+     <div class="flex items-center  px-50 mt-5 gap-2  " style="flex-wrap: wrap;">
+
+    <div class="border border-gray-300 px-8 py-6 md:w-55 md:h-25 w-70 rounded-md">
+       <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Jaipur</p></a> 
+    </div>
+    <div class="border border-gray-300 px-8 py-6 md:w-55 md:h-25 w-70 rounded-md">
+      <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Hyderabad</p></a>  
+    </div>
+    <div class="border border-gray-300 px-8 py-6 md:w-55 md:h-25 w-70 rounded-md">
+      <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Chandigarh</p></a>
+      </div> 
+      <div class="border border-gray-300 px-8 py-6 w-55 h-25 rounded-md content-center">
+       <a href=""><p class=" font-bold text-center text-orange-600">Show More</p></a> 
+    </div> 
+    
+    
+    </div>
+    <!-- t -->
+     <h3 class="mt-20 px-50 text-2xl font-bold">Cities with groceries delivery</h3>
+  <div class="flex items-center  px-50 mt-5 gap-2  " style="flex-wrap: wrap;">
+     
+    <div class="border border-gray-300 px-8 py-6 rounded-lg md:w-55 md:h-25 w-70">
+     <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Bangalore</p></a>   
+    </div>
+    <div class="border border-gray-300 px-8 py-6 rounded-lg md:w-55 md:h-25 w-70">
+      <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Delhi </p></a>  
+    </div>
+    <div class="border border-gray-300 px-8 py-6 rounded-lg md:w-55 md:h-25 w-70">
+      <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Gurgaon</p></a>  
+    </div>
+    <div class="border border-gray-300 px-8 py-6 rounded-md md:w-55 md:h-25 w-70">
+      <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Pune</p></a>  
+    </div>
+    </div>
+    <!-- layer2 -->
+     <div class="flex items-center  px-50 mt-5 gap-2  " style="flex-wrap: wrap;">
+
+    <div class="border border-gray-300 px-8 py-6 md:w-55 md:h-25 w-70 rounded-md">
+      <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Kolkata</p></a>  
+    </div>
+    <div class="border border-gray-300 px-8 py-6 md:w-55 md:h-25 w-70 rounded-md">
+      <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Chennai</p></a>  
+    </div>
+    <div class="border border-gray-300 px-8 py-6 md:w-55 md:h-25 w-70 rounded-md">
+      <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Mumbai</p></a>  
+    </div>
+    <div class="border border-gray-300 px-8 py-6 md:w-55 md:h-25 w-70 rounded-md">
+      <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Ahmedabad </p></a>  
+    </div>
+    </div>
+    <div class="flex items-center  px-50 mt-5 gap-2  " style="flex-wrap: wrap;">
+
+    <div class="border border-gray-300 px-8 py-6 md:w-55 md:h-25 w-70 rounded-md">
+       <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Jaipur</p></a> 
+    </div>
+    <div class="border border-gray-300 px-8 py-6 md:w-55 md:h-25 w-70 rounded-md">
+      <a href=""><p class=" font-medium text-center text-gray-800">Order food online in Hyderabad</p></a>  
+    </div>
+    <div class="border border-gray-300 px-8 py-6 md:w-55 md:h-25 w-70 rounded-md">
+      <a  href=""><p class=" font-medium text-center  text-gray-800">Order food online in Chandigarh</p></a>  
+    </div>
+    <div class="border border-gray-300 px-8 py-6 w-55 h-25 rounded-md content-center">
+       <a href=""><p class=" font-bold text-center text-orange-600">Show More</p></a> 
+    </div>
+    </div>
+
+  </div>
+  <footer class="bottom-0 inset-x-0 position-relative bg-gray-100 mt-50 ">
+        <div class="md:grid grid-cols-5 px-40 py-20 leading-normal    ">
+            <div>
+                <p class="text-3xl font-bold text-orange-600">Swiggy  </p>
+                <p class="text-gray-600 font-medium leading-12">&copy;2025 Swiggy Limited</p>
+            </div>
+            <div class="w-30 ml-5">
+               <h5 class="font-medium">Company</h5>
+             <a href=""><p class="text-gray-600 mt-3">About us</p> </a>  
+             <a href=""><p class="text-gray-600 mt-3">Swiggy Corporate</p></a>  
+            <a href=""><p class="text-gray-600 mt-3">Careers</p> </a>   
+            <a href=""><p class="text-gray-600 mt-3">Team</p></a>   
+            <a href=""><p class="text-gray-600 mt-3">Swiggy one</p></a>   
+            <a href=""><p class="text-gray-600 mt-3">Swiggy Instamart</p></a>   
+            <a href=""><p class="text-gray-600 mt-3">Swiggy Dineout</p></a>   
+            <a href=""><p class="text-gray-600 mt-3">Minis<br>Pyng</p></a>   
+            </div>
+            <div class="w-50 ml-5">
+             <h5 class="font-medium">Contact us</h5>
+          <a href=""><p class="text-gray-600 mt-3">Help & Support</p></a>   
+         <a href=""><p class="text-gray-600 mt-3">Partner With Us </p></a>    
+         <a href=""> <p class="text-gray-600 mt-3">Ride With Us</p></a>    
+                          <h5 class="font-medium mt-20">Legal</h5>
+                      <a href=""><p class="text-gray-600 mt-3">Terms & Conditions</p></a>    
+                      <a href=""> <p class="text-gray-600 mt-3">Cookie Policy</p></a>    
+                     <a href=""> <p class="text-gray-600 mt-3">Privacy Policy</p></a>     
+                          </div>
+            <div class="ml-5">
+             <h5 class="font-medium">Available in:</h5>
+             <p class="text-gray-600 mt-3">Bangalore</p>
+             <p class="text-gray-600 mt-3">Gurgaon</p>
+             <p class="text-gray-600 mt-3">Haryana</p>
+             <p class="text-gray-600 mt-3">Hyderabad</p>
+             <p class="text-gray-600 mt-3">Delhi</p>
+             <p class="text-gray-600 mt-3">Mumbai</p>
+            <a href=""><p class="text-gray-600 mt-3 border border-gray-600 px-2 py-2 w-30 rounded-md">685 cities &darr;</p></a> 
+            </div>
+            <div class="ml-5">
+                <h5 class="font-medium">Life at Swiggy</h5>
+             <a href=""><p class="text-gray-600 mt-3">Explore with Swiggy</p></a>   
+            <a href=""><p class="text-gray-600 mt-3">Swiggy News</p></a>   
+            <a href=""><p class="text-gray-600 mt-3">Snakables</p></a>    
+                <h5 class="mt-20 font-medium ">Social Links</h5>
+            <a href=""><i class="fa-brands fa-linkedin text-gray-600 mt-5"></i></a>   
+            <a href=""> <i class="fa-brands fa-instagram text-gray-600 mt-5"></i></a>   
+            <a href=""><i class="fa-brands fa-facebook text-gray-600 mt-5"></i></a>    
+            <a href=""> <i class="fa-brands fa-pinterest text-gray-600 mt-5"></i></a>    
+            <a href=""><i class="fa-brands fa-x-twitter text-gray-600 mt-5"></i></a>    
+            </div>
+</div>
+<hr>
+<div class="flex  items-center px-40 py-10 " style="flex-wrap: wrap;">
+<p class="text-gray-700 font-bold md:text-2xl">For better experience,download Swiggy app now</p>
+    <div class="ml-15 ">
+  <a style="display: inline-block;" href=""><img class="md:w-50 md:h-21 " src="./images/play.png" alt=""></a>  
+   <a style="display: inline-block;" href=""><img class="md:w-50 md:h-21 " src="./images/play1.png" alt=""></a> 
+   </div> 
+   </div>
+     
+</footer>
+</body>
+</html>
