@@ -102,7 +102,7 @@
 }
 /* Slide movement */
 #s3:checked ~ .slides { transform: translateX(0); }
-#s4:checked ~ .slides { transform: translateX(-1300px); }
+#s4:checked ~ .slides { transform: translateX(-1325px); }
 
 .slide2{
   margin-top: 30px;
