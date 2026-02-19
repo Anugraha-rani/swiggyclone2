@@ -1,6 +1,9 @@
 #username:focus{
     outline: none;
 }
+body,html{
+  overflow-x: hidden;
+}
 
 @media(max-width:800px){
     #image1{
@@ -16,6 +19,7 @@
     
 
 }
+
 .arrow{
     position: absolute;
     height: 15px;
@@ -89,9 +93,14 @@
   cursor: pointer;
   font-size: 24px;
   background: rgb(163, 163, 163);
-  padding: 5px 8px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
  border-radius: 50%;
 }
+
 .slide1{
   margin-top: 20px;
   width: 160%;
@@ -132,11 +141,14 @@
 #s4:checked ~ .slides { transform: translateX(-450px); }
 }
 
-@media(min-width:577px) and (max-width:768px){
+@media(min-width:577px) and (max-width:1000px){
   #s1:checked ~ .slides { transform: translateX(0); }
-#s2:checked ~ .slides { transform: translateX(-550px); }
+#s2:checked ~ .slides { transform: translateX(-760px); }
 #s3:checked ~ .slides { transform: translateX(0); }
-#s4:checked ~ .slides { transform: translateX(-600px); }
+#s4:checked ~ .slides { transform: translateX(-800px); }
 #s5:checked ~ .slides1 { transform: translateX(0); }
 #s6:checked ~ .slides1 { transform: translateX(-500px); }
+.order{
+  margin-top: 900px;
+}
 }
